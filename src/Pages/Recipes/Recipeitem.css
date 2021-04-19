@@ -29,16 +29,30 @@
 .stats{
     display:flex;
     gap: 5px;
+<<<<<<< HEAD
 }
 
 #View_btn{
     border-radius: 18px;
     background-color:black;
+=======
+    justify-content: space-between;
+}
+
+#View_btn{
+    border-radius: 8px;
+    background-color:#699DFF;
+>>>>>>> 5bf38cb0208e74ad97ae010522bb508d3e11ba10
     font-size: 13px;
     font-family:Poppins, sans-serif;
     text-transform:capitalize;
     color:white;
+<<<<<<< HEAD
     margin-left: 85px;
+=======
+    align-self: center;
+    margin-left: 130px;
+>>>>>>> 5bf38cb0208e74ad97ae010522bb508d3e11ba10
 
 }
 
@@ -48,17 +62,34 @@
 
 .Recipe_info{
     background: white;
+<<<<<<< HEAD
     height: 60%;
     width: 50%;
     display: block;
     justify-content: center;
     overflow: auto;
     padding: 20px;
+=======
+    height: 75%;
+    width: 75%;
+    display: block;
+    justify-content: center;
+    overflow: auto;
+    padding: 30px;
+>>>>>>> 5bf38cb0208e74ad97ae010522bb508d3e11ba10
     font-family: "Poppins";
     font-size: 15px;
     font-weight: 500;
 }
 
+<<<<<<< HEAD
+=======
+.Recipe_info::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+>>>>>>> 5bf38cb0208e74ad97ae010522bb508d3e11ba10
 .Nutrients_Info{
      font-style: normal;
     color: #321E59;
@@ -72,7 +103,10 @@
     border-color: #B3F4F9;
     border-width: 4px;
     padding: 10px;
+<<<<<<< HEAD
     margin: 0 auto;
+=======
+>>>>>>> 5bf38cb0208e74ad97ae010522bb508d3e11ba10
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,9 +117,15 @@
 
 .Nutrients_box{
     display: grid;
+<<<<<<< HEAD
     grid-column-gap: 5px;
     grid-row-gap: 8px;
     grid-template-columns: repeat(4,1fr); 
+=======
+    grid-column-gap:8px;
+    grid-row-gap: 8px;
+    grid-template-columns: repeat(6,1fr); 
+>>>>>>> 5bf38cb0208e74ad97ae010522bb508d3e11ba10
     padding: 20px;
 }
 
@@ -109,22 +149,78 @@
 }
 
 .Instruction{
+<<<<<<< HEAD
     padding: 12px;
+=======
+    padding: 15px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #B3F4F9;
+    border-width: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05), 0 6px 8px 0 rgba(0, 0, 0, 0.05);
+
+>>>>>>> 5bf38cb0208e74ad97ae010522bb508d3e11ba10
 }
 
 .close_btn{
     float: right;
 }
 
+<<<<<<< HEAD
+=======
+.bookmark_modal{
+    background: #D1F9D7;
+    color: #321E59;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    width: 30%;
+    text-align: center;
+    padding: 30px;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+}
+
+>>>>>>> 5bf38cb0208e74ad97ae010522bb508d3e11ba10
 @media only screen and (max-width:600px){
 
     .Nutrients_box{
         display: grid;
+<<<<<<< HEAD
         grid-column-gap: 5px;
         grid-row-gap: 8px;
         grid-template-columns: repeat(1,1fr); 
         padding: 20px;
     }
     
+=======
+        grid-column-gap: 8px;
+        grid-row-gap: 8px;
+        grid-template-columns: repeat(2,1fr); 
+        padding: 20px 0px 20px 0px;
+    }
+    
+    .Recipe_info{
+        width: 100%;
+        height: 95%;
+    }
+
+    #View_btn{
+        margin-left: 110px;
+        align-self: center;
+    }
+
+    .Instruction{
+        padding:5px;
+        border:none;
+        box-shadow: none;
+    }
+
+    .bookmark_modal{
+        width: 80%;
+        height: 20%;
+    }
+>>>>>>> 5bf38cb0208e74ad97ae010522bb508d3e11ba10
 
 }

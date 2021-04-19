@@ -12,7 +12,11 @@ function Recipes() {
     const [search,setSearch] = useState("");
     const [query,setQuery] = useState("");
     const API_KEY = '0e06064897434c9ea1e85457f3fb7b26'
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 5bf38cb0208e74ad97ae010522bb508d3e11ba10
     useEffect(() => {
         getRecipes();
     }, [query]);
@@ -96,6 +100,10 @@ function Recipes() {
                     foodfat={recipe.nutrition.nutrients[1].amount}
                     foodcarbs={recipe.nutrition.nutrients[3].amount}
                     foodprotein={recipe.nutrition.nutrients[8].amount}
+<<<<<<< HEAD
+=======
+                    foodservings={recipe.servings}
+>>>>>>> 5bf38cb0208e74ad97ae010522bb508d3e11ba10
                     foodrecipe={recipe.analyzedInstructions[0].steps}/>
                 ))}
             </div>
